@@ -1,0 +1,23 @@
+QWidget{
+    background-color: white;
+}
+
+QPushButton {
+    background-color: rgb(204, 204, 204);
+    font: 19px '微软雅黑';
+    border-radius: 4px;
+    /* height: 40px; */
+}
+
+QPushButton:pressed:hover {
+    background-color: rgb(153, 153, 153);
+}
+
+QPushButton:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+QPushButton:disabled {
+    background-color: rgb(204, 204, 204);
+    color: rgb(122, 122, 122);
+}

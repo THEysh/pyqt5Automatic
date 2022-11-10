@@ -1,0 +1,24 @@
+<RCC>
+  <qresource prefix="lined">
+    <file>re_data/Group 2.svg</file>
+    <file>re_data/Group 3.svg</file>
+    <file>re_data/Group 6.svg</file>
+    <file>re_data/Group 7.svg</file>
+    <file>re_data/Group 13.svg</file>
+    <file>re_data/Group 39.svg</file>
+    <file>re_data/Group 40.svg</file>
+    <file>re_data/Group 44.svg</file>
+    <file>re_data/Group 45.svg</file>
+  </qresource>
+  <qresource prefix="colored">
+    <file>re_data/资源 1.svg</file>
+    <file>re_data/资源 2.svg</file>
+    <file>re_data/资源 4.svg</file>
+    <file>re_data/资源 5.svg</file>
+    <file>re_data/资源 6.svg</file>
+    <file>re_data/资源 7.svg</file>
+    <file>re_data/资源 8.svg</file>
+    <file>re_data/资源 9.svg</file>
+    <file>re_data/资源 10.svg</file>
+  </qresource>
+</RCC>

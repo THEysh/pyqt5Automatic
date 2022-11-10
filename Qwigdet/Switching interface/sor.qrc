@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="colored">
+    <file>ui/1.jpg</file>
+    <file>ui/2.jpg</file>
+    <file>ui/img.png</file>
+  </qresource>
+</RCC>

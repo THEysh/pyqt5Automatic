@@ -1,0 +1,22 @@
+QPushButton{
+
+	border-image:url(":/lined/re_data/Group 2.svg");
+	border-radius: 50px;
+    /* height: 40px; */
+}
+
+QPushButton:pressed:hover {
+
+    border-image:url(":/colored/re_data/资源 8.svg")
+}
+
+QPushButton:hover {
+
+    border-image:url(":/colored/re_data/资源 7.svg")
+
+
+}
+
+QPushButton:disabled {
+
+}

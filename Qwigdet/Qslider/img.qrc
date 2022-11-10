@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="colored">
+    <file>re_data/资源 1.svg</file>
+    <file>re_data/资源 2.svg</file>
+    <file>re_data/资源 4.svg</file>
+    <file>re_data/资源 5.svg</file>
+    <file>re_data/资源 6.svg</file>
+    <file>re_data/资源 7.svg</file>
+    <file>re_data/资源 8.svg</file>
+    <file>re_data/资源 9.svg</file>
+    <file>re_data/资源 10.svg</file>
+  </qresource>
+</RCC>
