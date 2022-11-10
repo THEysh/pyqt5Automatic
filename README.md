@@ -4,7 +4,7 @@ pyqt5Automatic 借用一些框架，仅用少量的代码就实现了，qt5中�
 
 ### Qbutton
 
-1.用qt设计师（qtdesigner）设计一个基本的框架![动画](gif\动画.gif)
+1.用qt设计师（qtdesigner）设计一个基本的框架![动画](https://github.com/THEysh/pyqt5Automatic/tree/main/gif)
 
 2.给按钮添加图片参考
 
