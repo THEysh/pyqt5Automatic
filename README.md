@@ -8,9 +8,9 @@ pyqt5Automatic 借用一些框架，仅用少量的代码就实现了，qt5中�
 
 2.给按钮添加图片参考
 
-![动画3](C:\Users\Administrator\Desktop\gif\动画3.gif)
+[![动画3](C:\Users\Administrator\Desktop\gif\动画3.gif)](https://github.com/THEysh/pyqt5Automatic/blob/main/gif/%E5%8A%A8%E7%94%BB3.gif)
 
-![动画2](C:\Users\Administrator\Desktop\gif\动画2.gif)
+[![动画2](C:\Users\Administrator\Desktop\gif\动画2.gif)](https://github.com/THEysh/pyqt5Automatic/blob/main/gif/%E5%8A%A8%E7%94%BB2.gif)
 
 给背景label和 9个按钮button 均继承自适应窗口类,使用信号连接label的高斯滤波函数
 
