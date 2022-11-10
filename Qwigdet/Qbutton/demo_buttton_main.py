@@ -1,4 +1,3 @@
-import sys
 
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtCore import Qt
@@ -16,7 +15,7 @@ class Window(Automatic_Change_Window, Ui_Form):
     def __init__(self, parent=None):
         super().__init__(parent=parent)
         self.setupUi(self)
-        self.org_width, self.org_height = 300, 330  # 设置初始尺寸
+        self.org_width, self.org_height = 300, 325  # 设置初始尺寸
         self.Initialize_window()  # 初始化窗口
         self.Initialization_Background()
         self.Initialization_button()

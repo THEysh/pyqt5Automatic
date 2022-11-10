@@ -40,6 +40,8 @@ class MyWindow(QMainWindow, Ui_Form):
             app.quit()
 
 
+
+
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     mainWindow = MyWindow()

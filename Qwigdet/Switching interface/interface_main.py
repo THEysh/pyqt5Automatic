@@ -1,8 +1,11 @@
 import sys
+import time
 
+import win32gui
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt, pyqtSignal, QPoint, QTimer
 from PyQt5.QtWidgets import QApplication, QWidget
+from PyQt5.uic.properties import QtCore
 
 from Documents.Antomatic_QtWidgets import Automatic_Change_QtWidget
 from Documents.Automatic_Window import Automatic_Change_Window
@@ -10,7 +13,6 @@ from Documents.Automatic_button import Automatic_Change_button
 from Documents.Public_Properties import Public_Object
 from from2 import Ui_Form2
 from from3 import Ui_Form3
-
 from main1 import Ui_Form
 
 
@@ -113,11 +115,8 @@ class Controller(Automatic_Change_Window, Ui_Form):
         return wid_btn
 
     def widtimerfun(self):
-        print(self.ant_wid1.QtWidget.geometry())
-        print('test2')
-        print(self.child2.geometry())
-        toup = self.ant_wid1.QtWidget.geometry().getRect()
 
+        toup = self.ant_wid1.QtWidget.geometry().getRect()
         self.child2.setGeometry(self.geometry().left() + toup[0], self.geometry().top() + toup[1], toup[2], toup[3])
         self.child3.setGeometry(self.geometry().left() + toup[0], self.geometry().top() + toup[1], toup[2], toup[3])
 
@@ -128,10 +127,29 @@ class Controller(Automatic_Change_Window, Ui_Form):
         for k in self.btnlists:
             k.button_change(self)
 
+    def changeEvent(self, event):
+        super().changeEvent(event)
+        try:
+            if self.isMinimized():
+                self.allshow[0].close()
+            else:
+                self.allshow[0].show()
+        except:
+            pass
+
+    def mousePressEvent(self, e):
+        print(e.button())
+        if e.button() == Qt.LeftButton:
+            try:
+                self.allshow[0].show()
+            except:
+                pass
+
     def show_form2(self):
-        print(self.allshow)
+
         if len(self.allshow) == 0:
             self.child2.show()
+
             self.allshow.append(self.child2)
 
         elif self.allshow[0] == self.child2:
@@ -142,6 +160,7 @@ class Controller(Automatic_Change_Window, Ui_Form):
             self.allshow.clear()
             self.allshow.append(self.child2)
             self.child2.show()
+
 
     def show_form3(self):
         print(self.allshow)
