@@ -9,7 +9,7 @@ class MainWindow(QMainWindow):
         scene = QGraphicsScene(self)
         view = QGraphicsView(scene)
         self.setCentralWidget(view)
-        self.svg_item2 = QGraphicsSvgItem('Qwigdet/Qbutton/re_data/资源 2.svg')
+        self.svg_item2 = QGraphicsSvgItem('re_data/资源 2.svg')
         scene.addItem(self.svg_item2)
         self.svg_item2.setPos(0, 0)
 
