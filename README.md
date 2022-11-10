@@ -49,7 +49,7 @@ pyqt5Automatic 借用一些框架，仅用少量的代码就实现了，qt5中�
 
 下图实现高斯模糊
 
-![动画4](C:\Users\Administrator\Desktop\gif\动画4.gif)
+![动画4](https://github.com/THEysh/pyqt5Automatic/blob/main/gif/%E5%8A%A8%E7%94%BB4.gif)
 
 使用如下代码可以去除边框，按**esc**退出
 
@@ -58,19 +58,19 @@ self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint | Qt.Tool) 
 
 ```
 
-![动画5](C:\Users\Administrator\Desktop\gif\动画5.gif)
+![动画5](https://github.com/THEysh/pyqt5Automatic/blob/main/gif/%E5%8A%A8%E7%94%BB5.gif)
 
 ## Qslider
 
 下面是一个自适应滑块
 
-![动画6](C:\Users\Administrator\Desktop\gif\动画6.gif)
+![动画6](https://github.com/THEysh/pyqt5Automatic/blob/main/gif/%E5%8A%A8%E7%94%BB6.gif)
 
 ## QtWidgets
 
 其他由QtWidgets继承的类均可以用**Antomatic_QtWidgets.py**这个函数来继承，如下案例
 
-![动画7](C:\Users\Administrator\Desktop\gif\动画7.gif)
+![动画7](https://github.com/THEysh/pyqt5Automatic/blob/main/gif/%E5%8A%A8%E7%94%BB7.gif)
 
 ```py
         QtWidget1 = self.graphicsView
@@ -83,7 +83,7 @@ self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint | Qt.Tool) 
 
 下图是实现了界面切换，有bug(子窗口会置顶)占时还没解决。
 
-![动画8](C:\Users\Administrator\Desktop\gif\动画8.gif)
+![动画8](https://github.com/THEysh/pyqt5Automatic/blob/main/gif/%E5%8A%A8%E7%94%BB8.gif)
 
 
 
@@ -91,4 +91,4 @@ self.setWindowFlags(Qt.WindowStaysOnTopHint | Qt.FramelessWindowHint | Qt.Tool) 
 
 是一个多线程交互的实例
 
-![动画9](C:\Users\Administrator\Desktop\gif\动画9.gif)
+![动画9](https://github.com/THEysh/pyqt5Automatic/blob/main/gif/%E5%8A%A8%E7%94%BB9.gif)
